@@ -100,7 +100,6 @@ export default {
         },
         async sendToTelegram() {
             this.$emit('submitted');
-            console.log('SUBMITED 1')
             const message = `Новий відповідач:
             Крипто: ${this.form.experience}
             Вік: ${this.form.age}
@@ -108,19 +107,43 @@ export default {
             Джерело: ${this.form.source}`;
 
             const TOKEN = '7774437746:AAE4rEzA0cmDKt_r4tQWLGdfBFuckgVPnZ8';
-            const CHAT_ID = 7538727898; // ← заміни на свій реальний chat_id
+            const CHAT_IDS = [7538727898, 6550281440]; // ← додай свої ID сюди
 
-            await fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
+            for (const chatId of CHAT_IDS) {
+                await fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
+                headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    chat_id: CHAT_ID,
+                    chat_id: chatId,
                     text: message
                 })
-            });
-        }
+                });
+            }
+        },
+
+        // async sendToTelegram() {
+        //     this.$emit('submitted');
+        //     console.log('SUBMITED 1')
+        //     const message = `Новий відповідач:
+        //     Крипто: ${this.form.experience}
+        //     Вік: ${this.form.age}
+        //     TG: ${this.form.username}
+        //     Джерело: ${this.form.source}`;
+
+        //     const TOKEN = '7774437746:AAE4rEzA0cmDKt_r4tQWLGdfBFuckgVPnZ8';
+        //     const CHAT_ID = 7538727898; // ← заміни на свій реальний chat_id
+
+        //     await fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
+        //         method: 'POST',
+        //         headers: {
+        //             'Content-Type': 'application/json'
+        //         },
+        //         body: JSON.stringify({
+        //             chat_id: CHAT_ID,
+        //             text: message
+        //         })
+        //     });
+        // }
     }
     // async sendToTelegram() {
     //   const message = `Новий відповідач:
