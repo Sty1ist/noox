@@ -60,7 +60,8 @@ export default {
     &__title {
         color: var(--Light-Background---Dark-Headlines, #E5E3DD);
         // font-family: "SangBleu Sunrise";
-        font-family: 'Orbitron', sans-serif;
+        // font-family: 'Orbitron', sans-serif;
+        font-family: 'Orbitron', 'Russo One', sans-serif;
         font-weight: 700;
         font-size: 64px;
         font-style: normal;
@@ -72,7 +73,8 @@ export default {
     &__description {
         color: var(--Dark-Body, #ACACAD);
         // font-family: "MacPaw Fixel Display";
-        font-family: 'Orbitron', sans-serif;
+        // font-family: 'Orbitron', sans-serif;
+        font-family: 'Orbitron', 'Russo One', sans-serif;
         font-weight: 700;
         font-size: 28px;
         font-style: normal;
@@ -89,7 +91,8 @@ export default {
         color: var(--Dark-Background---Light-Headlines, #111314);
         text-align: center;
         // font-family: "MacPaw Fixel Display";
-        font-family: 'Orbitron', sans-serif;
+        // font-family: 'Orbitron', sans-serif;
+        font-family: 'Orbitron', 'Russo One', sans-serif;
         font-weight: 900;
         font-size: 14px;
         font-style: normal;
@@ -202,6 +205,8 @@ export default {
 
         &__image-container {
             height: fit-content;
+            width: 100% !important;
+            max-width: 100% !important;
         
             img {
                 width: 100%;

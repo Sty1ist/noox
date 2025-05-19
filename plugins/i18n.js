@@ -95,7 +95,7 @@ export default ({ app }) => {
           imageAlt: "Про клуб"
         },
         stepForm: {
-          q1: "What is the proof of crypto?",
+          q1: "Do you have experience in this field?",
           q2: "How old are you?",
           q3: "Your TG username",
           q4: "Where did you hear about us?",
@@ -106,9 +106,10 @@ export default ({ app }) => {
             age1: "Under 18",
             age2: "18–30",
             age3: "30+",
-            source1: "Friends",
-            source2: "Acquaintances",
-            source3: "Advertising"
+            source1: "Telegram",
+            source2: "Facebook",
+            source3: "Google",
+            source3: "Yandex"
           },
           next: "Next",
           back: "Back"
@@ -229,7 +230,7 @@ export default ({ app }) => {
           imageAlt: "О клубе"
         },
         stepForm: {
-          q1: "Есть ли опыт в крипте?",
+          q1: "Есть ли опыт в этой сфере?",
           q2: "Сколько вам лет?",
           q3: "Ваш TG username",
           q4: "Откуда вы о нас узнали?",
@@ -240,9 +241,10 @@ export default ({ app }) => {
             age1: "до 18",
             age2: "18–30",
             age3: "30+",
-            source1: "Друзья",
-            source2: "Знакомые",
-            source3: "Реклама"
+            source1: "Телеграм",
+            source2: "Фейсбук",
+            source3: "Гугл",
+            source3: "Яндекс"
           },
           next: "Далее",
           back: "Назад"
