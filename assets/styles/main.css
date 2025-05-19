@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "SangBleu Sunrise";
+    src: url('~assets/fonts/SangBleu-Sunrise.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+} 
+  
+@font-face {
+    font-family: "MacPaw Fixel Display";
+    src: url('@/assets/fonts/FixelDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('~assets/fonts/Orbitron-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('~assets/fonts/Orbitron-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Russo One';
+  src: url('~assets/fonts/RussoOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
