@@ -126,27 +126,28 @@ export default {
     lazy: true,
     langDir: 'locales/',
     vueI18n: {
-      fallbackLocale: 'uk',
+      fallbackLocale: 'ru',
     },
   },
 
   pwa: {
     meta: {
-      title: 'Help to Leave',
-      author: 'Ваше ім\'я',
-      description: 'Платформа Help to Leave допомагає українцям у процесі отримання закордонного паспорта.',
-      theme_color: '#000000',
-      ogSiteName: 'Help to Leave',
-      ogTitle: 'Help to Leave – закордонний паспорт для українців',
-      ogDescription: 'Отримайте свій документ без зайвих складнощів та стресу.',
+      title: 'NODEX',
+      author: 'NODEX Team',
+      description: 'NODEX — современная цифровая платформа нового поколения для быстрых подключений, свободы и простоты.',
+      theme_color: '#0f0f1a',
+      ogSiteName: 'NODEX',
+      ogTitle: 'NODEX — Платформа нового поколения',
+      ogDescription: 'Присоединяйтесь к NODEX — цифровой экосистеме без барьеров, созданной для скорости и свободы.',
       ogImage: {
-        path: 'https://helptoleave.com/images/poster-image-2.jpg',
+        path: 'https://nodex.world/images/og-banner.jpg',
         width: 1200,
         height: 630,
         type: 'image/jpeg'
       }
     }
   },
+
   
 
   /*
@@ -172,7 +173,7 @@ export default {
   },
 
   sitemap: {
-    hostname: 'https://helptoleave.com',
+    hostname: 'https://nodex.world',
     gzip: true, 
     routes: [
       '/'

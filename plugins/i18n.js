@@ -21,7 +21,7 @@ export default ({ app }) => {
           // imageAlt: "Зображення постера"
         },
         footerContent: {
-          footerText: "© 2025 Nodex. All rights reservedі.",
+          footerText: "© 2025 Nodex. All rights reserved.",
           contactUs: "Write to us"
         },
         pasportContent: {
@@ -29,22 +29,22 @@ export default ({ app }) => {
           description: "Необхідні документи для оформлення закордонного паспорта:",
           items: [
             {
-              img: require('@/assets/images/information/film-camera.svg'),
+              // img: require('@/assets/images/information/film-camera.svg'),
               title: "Фото на документ",
               description: "Фото у форматі TIFF або RAW"
             },
             {
-              img: require('@/assets/images/information/contract.svg'),
+              // img: require('@/assets/images/information/contract.svg'),
               title: "Ідентифікаційний код (ІПН)",
               description: "Скан-копія у форматі PDF або PNG"
             },
             {
-              img: require('@/assets/images/information/pasport.svg'),
+              // img: require('@/assets/images/information/pasport.svg'),
               title: "Паспорт громадянина України",
               description: "Усі сторінки у форматі PDF"
             },
             {
-              img: require('@/assets/images/information/travel.svg'),
+              // img: require('@/assets/images/information/travel.svg'),
               title: "Чинний закордонний паспорт",
               description: "Скан-копія у форматі PDF"
             },
@@ -60,17 +60,17 @@ export default ({ app }) => {
           description: "Необхідні документи для оформлення водійських прав міжнародного зразка:",
           items: [
             {
-              img: require('@/assets/images/information/film-camera.svg'),
+              // img: require('@/assets/images/information/film-camera.svg'),
               title: "Фото на документ",
               description: "Фото у форматі TIFF або RAW"
             },
             {
-              img: require('@/assets/images/information/contract.svg'),
+              // img: require('@/assets/images/information/contract.svg'),
               title: "Ідентифікаційний код (ІПН)",
               description: "Скан-копія у форматі PDF або PNG"
             },
             {
-              img: require('@/assets/images/information/pasport.svg'),
+              // img: require('@/assets/images/information/pasport.svg'),
               title: "Паспорт громадянина України",
               description: "Усі сторінки у форматі PDF"
             },
@@ -91,7 +91,7 @@ export default ({ app }) => {
             { number: "1700$", label: "Вартість" },
             { number: "Обмежена", label: "Пропозиція" }
           ],
-          imageSrc: require('@/assets/images/about-pasport-3.jpeg'),
+          // imageSrc: require('@/assets/images/about-pasport-3.jpeg'),
           imageAlt: "Про клуб"
         },
         stepForm: {
@@ -132,7 +132,7 @@ export default ({ app }) => {
             { number: "500$", label: "Довідка" },
             { number: "1000$", label: "Права з довідкою" }
           ],
-          imageSrc: require('@/assets/images/driver-6.png'),
+          // imageSrc: require('@/assets/images/driver-6.png'),
           imageAlt: "Про клуб"
         },
         contactContent: {
@@ -167,17 +167,17 @@ export default ({ app }) => {
           description: "Необходимые документы для оформления водительских прав международного образца:",
           items: [
           {
-            img: require('@/assets/images/information/film-camera.svg'),
+            // img: require('@/assets/images/information/film-camera.svg'),
             title: "Фото на документ",
             description: "Фото в формате TIFF или RAW"
           },
           {
-            img: require('@/assets/images/information/contract.svg'),
+            // img: require('@/assets/images/information/contract.svg'),
             title: "Идентификационный код (ИНН)",
             description: "Скан-копия в формате PDF или PNG"
           },
           {
-            img: require('@/assets/images/information/pasport.svg'),
+            // img: require('@/assets/images/information/pasport.svg'),
             title: "Паспорт гражданина Украины",
             description: "Все страницы в формате PDF"
           },
@@ -188,22 +188,22 @@ export default ({ app }) => {
           description: "Необходимые документы для оформления загранпаспорта:",
           items: [
             {
-              img: require('@/assets/images/information/film-camera.svg'),
+              // img: require('@/assets/images/information/film-camera.svg'),
               title: "Фото на документ",
               description: "Фото в формате TIFF или RAW"
             },
             {
-              img: require('@/assets/images/information/contract.svg'),
+              // img: require('@/assets/images/information/contract.svg'),
               title: "Идентификационный код (ИНН)",
               description: "Скан-копия в формате PDF или PNG"
             },
             {
-              img: require('@/assets/images/information/pasport.svg'),
+              // img: require('@/assets/images/information/pasport.svg'),
               title: "Паспорт гражданина Украины",
               description: "Все страницы в формате PDF"
             },
             {
-              img: require('@/assets/images/information/travel.svg'),
+              // img: require('@/assets/images/information/travel.svg'),
               title: "Действующий загранпаспорт",
               description: "Скан-копия в формате PDF"
             },
@@ -226,7 +226,7 @@ export default ({ app }) => {
             { number: "1700$", label: "Стоимость" },
             { number: "Ограниченное", label: "Предложение" }
           ],
-          imageSrc: require('@/assets/images/about-pasport-3.jpeg'),
+          // imageSrc: require('@/assets/images/about-pasport-3.jpeg'),
           imageAlt: "О клубе"
         },
         stepForm: {
@@ -267,7 +267,7 @@ export default ({ app }) => {
             { number: "500$", label: "Справка" },
             { number: "1000$", label: "Права со справкой" }
           ],
-          imageSrc: require('@/assets/images/driver-6.png'),
+          // imageSrc: require('@/assets/images/driver-6.png'),
           imageAlt: "О клубе"
         },
         contactContent: {

@@ -5,9 +5,9 @@
             <img src="~/assets/logo/logo.svg" alt="Nodex Logo" />
         </div>
         <p class="footer__text">{{ $t('footerContent.footerText') }}</p>
-        <div class="footer__socials">
+        <!-- <div class="footer__socials">
             <a href="mailto:ukrpassua@protonmail.com" class="footer__social-link footer__social-link--email">{{ $t('footerContent.contactUs') }}</a>
-        </div>
+        </div> -->
     </div>
 </footer>
 </template>
@@ -48,13 +48,10 @@ export default {
     &__text {
         color: var(--variant-23-light-grey, #E5E3DD);
         text-align: center;
-        // font-family: "MacPaw Fixel Display";
         font-size: 18px;
         font-style: normal;
-        // font-weight: 500;
-        // font-family: 'Orbitron', sans-serif;
         font-family: 'Orbitron', 'Russo One', sans-serif;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 200%;
         text-transform: uppercase;
         margin-bottom: 10px;
@@ -71,13 +68,10 @@ export default {
     &__social-link {
         text-decoration: none;
         color: var(--Dark-Body, #ACACAD);
-        // font-family: "MacPaw Fixel Display";
-        // font-family: 'Orbitron', sans-serif;
         font-family: 'Orbitron', 'Russo One', sans-serif;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 16px;
         font-style: normal;
-        // font-weight: 400;
         line-height: 140%;
 
         &:hover {

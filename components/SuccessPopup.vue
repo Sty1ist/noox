@@ -76,12 +76,12 @@ export default {
 
 .step-form__title {
     // font-family: 'Orbitron', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 48px;
   margin-bottom: 26px;
 //   font-family: 'Orbitron', sans-serif;
 font-family: 'Orbitron', 'Russo One', sans-serif;
-  font-weight: 700;
+//   font-weight: 700;
 }
 
 

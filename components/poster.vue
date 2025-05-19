@@ -76,11 +76,6 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
 
-    // &__information {
-    //     max-width: 45%;
-    // }
-
-
     &::after {
         content: '';
         position: absolute;
@@ -105,7 +100,7 @@ export default {
         // font-family: "SangBleu Sunrise";
         // font-family: 'Orbitron', sans-serif;
         font-family: 'Orbitron', 'Russo One', sans-serif;
-        font-weight: 700;
+        // font-weight: 700;
         font-size: 82px;
         font-style: normal;
         font-weight: 400;
@@ -126,7 +121,7 @@ export default {
         // font-family: "MacPaw Fixel Display";
         // font-family: 'Orbitron', sans-serif;
         font-family: 'Orbitron', 'Russo One', sans-serif;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 14px;
         font-style: normal;
         // font-weight: 400;
@@ -172,7 +167,8 @@ export default {
     &__subtitle {
         color: var(--Dark-Body, #ACACAD);
         // font-family: "MacPaw Fixel Display";
-        font-family: 'Orbitron', sans-serif;
+        // font-family: 'Orbitron', sans-serif;
+        font-family: 'Orbitron', 'Russo One', sans-serif;
 //   font-weight: 700;
         font-size: 32px;
         font-style: normal;

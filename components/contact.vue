@@ -59,10 +59,8 @@ export default {
 
     &__title {
         color: var(--Light-Background---Dark-Headlines, #E5E3DD);
-        // font-family: "SangBleu Sunrise";
-        // font-family: 'Orbitron', sans-serif;
         font-family: 'Orbitron', 'Russo One', sans-serif;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 64px;
         font-style: normal;
         // font-weight: 400;
@@ -72,13 +70,10 @@ export default {
 
     &__description {
         color: var(--Dark-Body, #ACACAD);
-        // font-family: "MacPaw Fixel Display";
-        // font-family: 'Orbitron', sans-serif;
         font-family: 'Orbitron', 'Russo One', sans-serif;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 28px;
         font-style: normal;
-        // font-weight: 400;
         line-height: 140%;
         margin-bottom: 56px;
     }
@@ -90,13 +85,10 @@ export default {
         background: var(--Light-Background---Dark-Headlines, #E5E3DD);
         color: var(--Dark-Background---Light-Headlines, #111314);
         text-align: center;
-        // font-family: "MacPaw Fixel Display";
-        // font-family: 'Orbitron', sans-serif;
         font-family: 'Orbitron', 'Russo One', sans-serif;
-        font-weight: 900;
+        font-weight: 400;
         font-size: 14px;
         font-style: normal;
-            // font-weight: 400;
         line-height: 200%; /* 28px */
         text-transform: uppercase;
         padding: 10px;
@@ -153,7 +145,7 @@ export default {
             width: 100%;
             font-size: 14px;
             padding: 10px;
-            font-weight: 900;
+            font-weight: 400;
         }
 
         &__image-container {
@@ -200,7 +192,7 @@ export default {
         &__link {
             max-width: 260px;
             width: 260px;
-            font-weight: 900;
+            font-weight: 400;
         }
 
         &__image-container {
