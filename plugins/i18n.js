@@ -156,7 +156,7 @@ export default ({ app }) => {
           // imageAlt: "Изображение постера"
         },
         footerContent: {
-          footerText: "© 2024 NODEX. Все права защищены.",
+          footerText: "© 2025 NODEX. Все права защищены.",
           contactUs: "Написать нам"
         },
         reviewsContent: {
@@ -272,7 +272,7 @@ export default ({ app }) => {
         },
         contactContent: {
           title: "Свяжитесь с нами",
-          description: "Напишите в Telegram, чтобы начать процесс оформления",
+          description: "Напишите в Telegram, чтобы начать процесс",
           button: {
             buttonText: "Написать нам",
             buttonLink: ""
