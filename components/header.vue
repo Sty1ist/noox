@@ -32,7 +32,7 @@
 export default {
     data() {
         return {
-            selectedLocale: 'uk',
+            selectedLocale: 'ru',
             scrolled: false
         };
     },
