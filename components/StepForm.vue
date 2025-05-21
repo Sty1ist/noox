@@ -25,7 +25,7 @@
 
             <div v-else-if="step === 4">
                 <h2 class="step-form__title">{{ $t('stepForm.q4') }}</h2>
-                <label v-for="option in ['source1', 'source2', 'source3']" :key="option">
+                <label v-for="option in ['source1', 'source2', 'source3', 'source4', 'source5']" :key="option">
                     <input type="radio" v-model="form.source" :value="$t(`stepForm.options.${option}`)" />
                     {{ $t(`stepForm.options.${option}`) }}
                 </label>
@@ -243,7 +243,7 @@ export default {
 label {
     display: block;
     margin-bottom: 24px;
-
+    letter-spacing: 1px;
 }
 
 input {

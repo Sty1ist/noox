@@ -5,7 +5,7 @@
             <h2 class="contact-section__title" data-aos="fade-up" data-aos-delay="400">{{ content.title }}</h2>
             <p class="contact-section__description" data-aos="fade-up" data-aos-delay="500">{{ content.description }}</p>
             <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1200">
-                <a href="https://t.me/sensetiv812" class="contact-section__link" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/bortnikov_11" class="contact-section__link" target="_blank" rel="noopener noreferrer">
                     {{ content.button.buttonText }}
                 </a>
             </div>

@@ -109,7 +109,8 @@ export default ({ app }) => {
             source1: "Telegram",
             source2: "Facebook",
             source3: "Google",
-            source3: "Yandex"
+            source4: "Yandex",
+            source5: "VK, OK, Mail.ru"
           },
           next: "Next",
           back: "Back"
@@ -244,7 +245,8 @@ export default ({ app }) => {
             source1: "Телеграм",
             source2: "Фейсбук",
             source3: "Гугл",
-            source3: "Яндекс"
+            source4: "Яндекс",
+            source5: "VK, OK, Mail.ru"
           },
           next: "Далее",
           back: "Назад"
