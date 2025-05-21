@@ -140,7 +140,7 @@ export default {
       ogTitle: 'NODEX — Платформа нового поколения',
       ogDescription: 'Присоединяйтесь к NODEX — цифровой экосистеме без барьеров, созданной для скорости и свободы.',
       ogImage: {
-        path: 'https://nodex.world/images/og-banner.jpg',
+        path: 'https://nodex.world/images/logo.svg',
         width: 1200,
         height: 630,
         type: 'image/jpeg'
