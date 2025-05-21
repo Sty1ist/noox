@@ -45,12 +45,12 @@ export default {
             {
                 hid: 'og:image',
                 property: 'og:image',
-                content: 'https://nodex.ai/images/logo.svg' // замени на актуальный URL
+                content: 'https://nodex.world/images/logo.svg' // замени на актуальный URL
             },
             {
                 hid: 'og:url',
                 property: 'og:url',
-                content: 'https://nodex.ai'
+                content: 'https://nodex.world'
             },
             {
                 hid: 'og:image:width',
