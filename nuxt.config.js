@@ -32,12 +32,12 @@ export default {
     {
       hid: 'og:image',
       property: 'og:image',
-      content: 'https://nodex.ai/images/og-banner.jpg' // Заміни на актуальне зображення
+      content: 'https://nodex.world/images/logo.svg' // Заміни на актуальне зображення
     },
     {
       hid: 'og:url',
       property: 'og:url',
-      content: 'https://nodex.ai'
+      content: 'https://nodex.world'
     },
     {
       hid: 'og:type',
@@ -62,7 +62,7 @@ export default {
   ],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    { rel: 'canonical', href: 'https://nodex.ai' }
+    { rel: 'canonical', href: 'https://nodex.world' }
   ]
 },
   // head: {

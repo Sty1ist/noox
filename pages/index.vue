@@ -45,7 +45,7 @@ export default {
             {
                 hid: 'og:image',
                 property: 'og:image',
-                content: 'https://nodex.ai/images/og-banner.jpg' // замени на актуальный URL
+                content: 'https://nodex.ai/images/logo.svg' // замени на актуальный URL
             },
             {
                 hid: 'og:url',
@@ -76,7 +76,7 @@ export default {
             link: [
             {
                 rel: 'canonical',
-                href: 'https://nodex.ai'
+                href: 'https://nodex.world'
             }
             ],
             script: [
