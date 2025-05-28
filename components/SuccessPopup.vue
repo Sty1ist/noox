@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     writeToManager() {
-      window.open('https://t.me/bortnikov_11', '_blank');
+      window.open('https://t.me/Akorn90', '_blank');
     }
   }
 }

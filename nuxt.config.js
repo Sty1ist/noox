@@ -107,6 +107,7 @@ export default {
   plugins: [
     { src: '~/plugins/aos.client.js', mode: 'client' },
     { src: '~/plugins/i18n.js', mode: 'client' },
+    { src: '~/plugins/facebook-pixel.client.js', mode: 'client' },
     // { src: '~/plugins/swiper.js', mode: 'client' }
   ],
 
