@@ -107,7 +107,7 @@ export default {
             Джерело: ${this.form.source}`;
 
             const TOKEN = '7774437746:AAE4rEzA0cmDKt_r4tQWLGdfBFuckgVPnZ8';
-            const CHAT_IDS = [7538727898, 6550281440, 5038612487]; // ← додай свої ID сюди
+            const CHAT_IDS = [7538727898, 6550281440, 5038612487, 7822391067]; // ← додай свої ID сюди
 
             for (const chatId of CHAT_IDS) {
                 await fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
