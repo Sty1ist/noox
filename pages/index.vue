@@ -79,23 +79,23 @@ export default {
                 href: 'https://nodex.world'
             }
             ],
-            script: [
-            {
-                src: 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX',
-                async: true
-            },
-            {
-                hid: 'gtag',
-                innerHTML: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-XXXXXXX');
-                `,
-                type: 'text/javascript',
-                charset: 'utf-8'
-            }
-            ],
+            // script: [
+            // {
+            //     src: 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX',
+            //     async: true
+            // },
+            // {
+            //     hid: 'gtag',
+            //     innerHTML: `
+            //     window.dataLayer = window.dataLayer || [];
+            //     function gtag(){dataLayer.push(arguments);}
+            //     gtag('js', new Date());
+            //     gtag('config', 'G-XXXXXXX');
+            //     `,
+            //     type: 'text/javascript',
+            //     charset: 'utf-8'
+            // }
+            // ],
             __dangerouslyDisableSanitizersByTagID: {
             gtag: ['innerHTML']
             }
